@@ -7,7 +7,7 @@ verbose config file /usr/local/etc/npmrc
 verbose config file /usr/local/lib/node_modules/npm/npmrc
 ERR! Couldn't read dependencies.
 ERR! Failed to parse json
-ERR! Unexpected string
+ERR! Unexpected end of input
 ERR! File: /Users/ross/workspace/rossingram/package.json
 ERR! JSON.parse Failed to parse package.json data.
 ERR! JSON.parse package.json must be actual JSON, not just JavaScript.
@@ -22,6 +22,6 @@ ERR! npm -v 1.1.21
 ERR! file /Users/ross/workspace/rossingram/package.json
 ERR! code EJSONPARSE
 ERR! message Failed to parse json
-ERR! message Unexpected string
+ERR! message Unexpected end of input
 ERR! errno {}
 verbose exit [ 1, true ]
