@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {margin:100px 65% 40px 40px; padding:0px; background:url(rossbk2.gif) left top no-repeat #fff; color:#000000; font:Normal 30px Georgia, "Times New Roman", Times, serif;}
+strong{color:#000000; font-weight:normal;}
+p{margin:0px 0px 20px 0px; padding:0px;}
+a{text-decoration:none; color:#ff424f;}
+a:hover{color:#83060f;}
+
+.links {
+	font-size: 10pt;
+	color: #666666;
+}
+.name {font-size: 22pt}
