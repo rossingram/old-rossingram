@@ -2,6 +2,5 @@
   "name": "rossingram",
   "version": "0.0.1",
   "dependencies": {
-  	"ejs": "0.6.1"
     "express": "2.5.x"
 }
