@@ -1,0 +1,275 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+info using npm@1.1.21
+info using node@v0.6.17
+verbose config file /Users/ross/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose caching /Users/ross/workspace/rossingram/package.json
+verbose loadDefaults rossingram@0.0.1
+verbose readDependencies: using package.json deps
+verbose where, deps [ '/Users/ross/workspace/rossingram', [ 'express', 'ejs' ] ]
+verbose from cache /Users/ross/workspace/rossingram/package.json
+info preinstall rossingram@0.0.1
+verbose from cache /Users/ross/workspace/rossingram/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'express@2.2.0', null ]
+silly cache add: name, spec, args [ undefined, 'express@2.2.0', [ 'express@2.2.0', null ] ]
+verbose parsed url { pathname: 'express@2.2.0',
+verbose parsed url   path: 'express@2.2.0',
+verbose parsed url   href: 'express@2.2.0' }
+silly cache add: name, spec, args [ 'express', '2.2.0', [ 'express', '2.2.0' ] ]
+verbose parsed url { pathname: '2.2.0', path: '2.2.0', href: '2.2.0' }
+verbose addNamed [ 'express', '2.2.0' ]
+verbose addNamed [ '2.2.0', '2.2.0' ]
+verbose cache add [ 'ejs@>=0.6.1', null ]
+silly cache add: name, spec, args [ undefined, 'ejs@>=0.6.1', [ 'ejs@>=0.6.1', null ] ]
+verbose parsed url { pathname: 'ejs@', path: 'ejs@', href: 'ejs@' }
+silly cache add: name, spec, args [ 'ejs', '>=0.6.1', [ 'ejs', '>=0.6.1' ] ]
+verbose parsed url { pathname: '=0.6.1', path: '=0.6.1', href: '=0.6.1' }
+verbose addNamed [ 'ejs', '>=0.6.1' ]
+verbose addNamed [ null, '>=0.6.1' ]
+silly name, range, hasData [ 'ejs', '>=0.6.1', false ]
+verbose raw, before any munging ejs
+verbose url resolving [ 'https://registry.npmjs.org/', './ejs' ]
+verbose url resolved https://registry.npmjs.org/ejs
+http GET https://registry.npmjs.org/ejs
+verbose raw, before any munging express/2.2.0
+verbose url resolving [ 'https://registry.npmjs.org/', './express/2.2.0' ]
+verbose url resolved https://registry.npmjs.org/express/2.2.0
+verbose etag "7P8SWZKRIVWVW8QJSHUC5SACB"
+http GET https://registry.npmjs.org/express/2.2.0
+http 200 https://registry.npmjs.org/express/2.2.0
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"EXS2XHUIAFCPCNRFD3JQVZKFU"',
+silly get cb     date: 'Sun, 15 Jul 2012 04:16:38 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1008' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: 'ab38a7eaad67a1c28495021a798d234086d73dea',
+verbose bin dist     tarball: 'http://registry.npmjs.org/express/-/express-2.2.0.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-2.2.0.tgz',
+verbose addRemoteTarball   'ab38a7eaad67a1c28495021a798d234086d73dea' ]
+verbose fetch to /var/folders/k0/fq61p3kj1qn5vwrgks1vfzh40000gn/T/npm-1342325798099/1342325798099-0.6714665987528861/tmp.tgz
+http GET https://registry.npmjs.org/express/-/express-2.2.0.tgz
+http 200 https://registry.npmjs.org/ejs
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"4760XE09D9Q25JANUS8FJTVB0"',
+silly get cb     date: 'Sun, 15 Jul 2012 04:16:38 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '23423' } ]
+silly name, range, hasData 2 [ 'ejs', '>=0.6.1', true ]
+silly versions [ 'ejs',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.4.2',
+silly versions     '0.4.3',
+silly versions     '0.5.0',
+silly versions     '0.6.0',
+silly versions     '0.6.1',
+silly versions     '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.7.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: '8032ee9f1fccdae8376582fee1c6d80b31aa1bd3',
+verbose bin dist     tarball: 'http://registry.npmjs.org/ejs/-/ejs-0.7.2.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/ejs/-/ejs-0.7.2.tgz',
+verbose addRemoteTarball   '8032ee9f1fccdae8376582fee1c6d80b31aa1bd3' ]
+verbose fetch to /var/folders/k0/fq61p3kj1qn5vwrgks1vfzh40000gn/T/npm-1342325798099/1342325798142-0.7979562708642334/tmp.tgz
+http GET https://registry.npmjs.org/ejs/-/ejs-0.7.2.tgz
+http 200 https://registry.npmjs.org/ejs/-/ejs-0.7.2.tgz
+http 200 https://registry.npmjs.org/express/-/express-2.2.0.tgz
+silly updated sha bytes 11745
+info shasum 8032ee9f1fccdae8376582fee1c6d80b31aa1bd3
+info shasum /var/folders/k0/fq61p3kj1qn5vwrgks1vfzh40000gn/T/npm-1342325798099/1342325798142-0.7979562708642334/tmp.tgz
+verbose unpack /var/folders/k0/fq61p3kj1qn5vwrgks1vfzh40000gn/T/npm-1342325798099/1342325798142-0.7979562708642334/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry index.js
+silly extracting entry benchmark.js
+silly extracting entry ejs.js
+silly extracting entry ejs.min.js
+silly extracting entry History.md
+silly extracting entry .gitmodules
+silly extracting entry lib/ejs.js
+silly extracting entry lib/filters.js
+silly extracting entry lib/utils.js
+silly extracting entry Makefile
+silly extracting entry examples/list.js
+silly extracting entry examples/client.html
+silly extracting entry examples/list.ejs
+silly extracting entry Readme.md
+silly extracting entry support/compile.js
+silly extracting entry test/ejs.test.js
+silly extracting entry test/fixtures/user.ejs
+verbose caching /var/folders/k0/fq61p3kj1qn5vwrgks1vfzh40000gn/T/npm-1342325798099/1342325798142-0.7979562708642334/package/package.json
+verbose loadDefaults ejs@0.7.2
+verbose from cache /var/folders/k0/fq61p3kj1qn5vwrgks1vfzh40000gn/T/npm-1342325798099/1342325798142-0.7979562708642334/package/package.json
+verbose tar.pack [ '/Users/ross/.npm/ejs/0.7.2/package.tgz',
+verbose tar.pack   '/var/folders/k0/fq61p3kj1qn5vwrgks1vfzh40000gn/T/npm-1342325798099/1342325798142-0.7979562708642334/package' ]
+verbose tarball /Users/ross/.npm/ejs/0.7.2/package.tgz
+verbose folder /var/folders/k0/fq61p3kj1qn5vwrgks1vfzh40000gn/T/npm-1342325798099/1342325798142-0.7979562708642334/package
+verbose unpack /Users/ross/.npm/ejs/0.7.2/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry index.js
+silly extracting entry benchmark.js
+silly extracting entry ejs.js
+silly extracting entry ejs.min.js
+silly extracting entry History.md
+silly extracting entry .gitmodules
+silly extracting entry lib/ejs.js
+silly extracting entry lib/filters.js
+silly extracting entry lib/utils.js
+silly extracting entry Makefile
+silly extracting entry examples/list.js
+silly extracting entry examples/client.html
+silly extracting entry examples/list.ejs
+silly extracting entry Readme.md
+silly extracting entry support/compile.js
+silly extracting entry test/ejs.test.js
+silly extracting entry test/fixtures/user.ejs
+verbose caching /Users/ross/.npm/ejs/0.7.2/package/package.json
+verbose loadDefaults ejs@0.7.2
+silly updated sha bytes 11745
+info shasum 8032ee9f1fccdae8376582fee1c6d80b31aa1bd3
+info shasum /Users/ross/.npm/ejs/0.7.2/package.tgz
+verbose from cache /Users/ross/.npm/ejs/0.7.2/package/package.json
+verbose chmod /Users/ross/.npm/ejs/0.7.2/package.tgz 644
+verbose chown [ '/Users/ross/.npm/ejs/0.7.2/package.tgz', 501, 20 ]
+silly updated sha bytes 25441
+info shasum ab38a7eaad67a1c28495021a798d234086d73dea
+info shasum /var/folders/k0/fq61p3kj1qn5vwrgks1vfzh40000gn/T/npm-1342325798099/1342325798099-0.6714665987528861/tmp.tgz
+verbose unpack /var/folders/k0/fq61p3kj1qn5vwrgks1vfzh40000gn/T/npm-1342325798099/1342325798099-0.6714665987528861/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry 
+silly extracting entry .npmignore
+silly extracting entry bin/
+silly extracting entry History.md
+silly extracting entry index.js
+silly extracting entry lib/
+silly extracting entry LICENSE
+silly extracting entry Makefile
+silly extracting entry package.json
+silly extracting entry Readme.md
+silly extracting entry lib/express.js
+silly extracting entry lib/http.js
+silly extracting entry lib/https.js
+silly extracting entry lib/request.js
+silly extracting entry lib/response.js
+silly extracting entry lib/utils.js
+silly extracting entry lib/view/
+silly extracting entry lib/view.js
+silly extracting entry lib/view/partial.js
+silly extracting entry lib/view/view.js
+silly extracting entry bin/express
+verbose caching /var/folders/k0/fq61p3kj1qn5vwrgks1vfzh40000gn/T/npm-1342325798099/1342325798099-0.6714665987528861/package/package.json
+verbose loadDefaults express@2.2.0
+verbose from cache /var/folders/k0/fq61p3kj1qn5vwrgks1vfzh40000gn/T/npm-1342325798099/1342325798099-0.6714665987528861/package/package.json
+verbose tar.pack [ '/Users/ross/.npm/express/2.2.0/package.tgz',
+verbose tar.pack   '/var/folders/k0/fq61p3kj1qn5vwrgks1vfzh40000gn/T/npm-1342325798099/1342325798099-0.6714665987528861/package' ]
+verbose tarball /Users/ross/.npm/express/2.2.0/package.tgz
+verbose folder /var/folders/k0/fq61p3kj1qn5vwrgks1vfzh40000gn/T/npm-1342325798099/1342325798099-0.6714665987528861/package
+verbose unpack /Users/ross/.npm/express/2.2.0/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry LICENSE
+silly extracting entry index.js
+silly extracting entry bin/express
+silly extracting entry History.md
+silly extracting entry lib/express.js
+silly extracting entry lib/http.js
+silly extracting entry lib/https.js
+silly extracting entry lib/request.js
+silly extracting entry lib/response.js
+silly extracting entry lib/utils.js
+silly extracting entry lib/view.js
+silly extracting entry lib/view/partial.js
+silly extracting entry lib/view/view.js
+silly extracting entry Makefile
+silly extracting entry Readme.md
+verbose caching /Users/ross/.npm/express/2.2.0/package/package.json
+verbose loadDefaults express@2.2.0
+silly updated sha bytes 26119
+info shasum 4079213601ce6adc3ecfd917d3f17a287424a364
+info shasum /Users/ross/.npm/express/2.2.0/package.tgz
+verbose from cache /Users/ross/.npm/express/2.2.0/package/package.json
+verbose chmod /Users/ross/.npm/express/2.2.0/package.tgz 644
+verbose chown [ '/Users/ross/.npm/express/2.2.0/package.tgz', 501, 20 ]
+silly resolved [ { name: 'ejs',
+silly resolved     description: 'Embedded JavaScript templates',
+silly resolved     version: '0.7.2',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     keywords: [ 'template', 'engine', 'ejs' ],
+silly resolved     devDependencies: { mocha: '*' },
+silly resolved     main: './lib/ejs.js',
+silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/ejs.git' },
+silly resolved     _id: 'ejs@0.7.2',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.21',
+silly resolved     _nodeVersion: 'v0.6.17',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '8032ee9f1fccdae8376582fee1c6d80b31aa1bd3' },
+silly resolved     _from: 'ejs@>=0.6.1' },
+silly resolved   { name: 'express',
+silly resolved     description: 'Sinatra inspired web development framework',
+silly resolved     version: '2.2.0',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved        { name: 'Aaron Heckmann',
+silly resolved          email: 'aaron.heckmann+github@gmail.com' },
+silly resolved        { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly resolved        { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly resolved     dependencies: { connect: '>= 1.2.0 < 2.0.0', mime: '>= 0.0.1', qs: '>= 0.0.6' },
+silly resolved     keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/express.git' },
+silly resolved     main: 'index',
+silly resolved     bin: { express: './bin/express' },
+silly resolved     engines: { node: '>= 0.4.1 < 0.5.0' },
+silly resolved     _id: 'express@2.2.0',
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.1.21',
+silly resolved     _nodeVersion: 'v0.6.17',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '4079213601ce6adc3ecfd917d3f17a287424a364' },
+silly resolved     _from: 'express@2.2.0' } ]
+info into /Users/ross/workspace/rossingram ejs@0.7.2
+info into /Users/ross/workspace/rossingram express@2.2.0
+info installOne ejs@0.7.2
+info installOne express@2.2.0
+ERR! Unsupported
+ERR! Not compatible with your version of node/npm: express@2.2.0
+ERR! Required: {"node":">= 0.4.1 < 0.5.0"}
+ERR! Actual:   {"npm":"1.1.21","node":"0.6.17"}
+ERR! 
+ERR! System Darwin 11.4.0
+ERR! command "node" "/usr/local/bin/npm" "install"
+ERR! cwd /Users/ross/workspace/rossingram
+ERR! node -v v0.6.17
+ERR! npm -v 1.1.21
+ERR! code ENOTSUP
+ERR! message Unsupported
+ERR! errno {}
+verbose exit [ 1, true ]
