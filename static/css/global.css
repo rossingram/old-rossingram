@@ -1,28 +1,29 @@
 body {
 	margin: 40px 40px; 
-	background:url(../images/rossbk2.gif) left top no-repeat #fff; 
-	font:Normal 30px Georgia, "Times New Roman", Times, serif;
+	background:url(../images/rossbk2.gif) left top no-repeat #fff;
 } 
 a {
-text-decoration:none; 
-color:#ff424f;
+	text-decoration:none; 
+	color:#ff424f;
 } 
 a:hover {
-color:#83060f;
+	color:#83060f;
 } 
 .links {
-	font-size: 10pt;
+	font-size: 14px;
 	color: #666666;
 	margin:0px 0px 20px 0px; 
-	padding:0px;} 
+	padding:0px;
 }
 .name {
-font-size: 45pt;
-font-family: 'Handlee', cursive;
-}
+	font-size: 45px;
+	font-family: 'Nothing You Could Do', cursive;
+	}
 .press {
-	font-size: 10pt;
+	font-size: 14px;
 	color: #666666;
 	margin:0px 0px 20px 0px; 
-
+}
+.head {
+	font-size: 20px;
 }
