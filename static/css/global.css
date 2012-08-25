@@ -1,25 +1,28 @@
 body {
-	margin:100px 65% 40px 40px; 
+	margin: 40px 40px; 
 	background:url(../images/rossbk2.gif) left top no-repeat #fff; 
 	font:Normal 30px Georgia, "Times New Roman", Times, serif;
-}
- 
+} 
 a {
 text-decoration:none; 
 color:#ff424f;
 } 
-
 a:hover {
 color:#83060f;
 } 
-
 .links {
 	font-size: 10pt;
 	color: #666666;
 	margin:0px 0px 20px 0px; 
 	padding:0px;} 
 }
-
 .name {
-font-size: 45pt
+font-size: 45pt;
+font-family: 'Handlee', cursive;
+}
+.press {
+	font-size: 10pt;
+	color: #666666;
+	margin:0px 0px 20px 0px; 
+
 }
