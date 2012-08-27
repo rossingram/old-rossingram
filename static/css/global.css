@@ -1,6 +1,10 @@
 body {
 	margin: 40px 40px; 
 	background:url(../images/rossbk2.gif) left top no-repeat #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 } 
 a {
 	text-decoration:none; 
