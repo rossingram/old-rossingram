@@ -1,5 +1,6 @@
 body { 
-	background:url(../images/rossbk2.gif) left top no-repeat #fff;
+  margin: 20px 20px;
+  background:url(../images/rossbk2.gif) left top no-repeat #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
