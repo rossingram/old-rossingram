@@ -1,6 +1,6 @@
 var express = require('express');
 
-var app = express();
+var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
   response.render("index.ejs", {layout:false});
